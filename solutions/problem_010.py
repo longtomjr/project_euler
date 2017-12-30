@@ -7,7 +7,7 @@ import problem_007 as prime
 
 
 def main():
-    print(sum(prime.sieve_eratosthenes(2000000)))
+    print(sum(prime.sieve_eratosthenes(2000000)) - 1)
     return 0
 
 
